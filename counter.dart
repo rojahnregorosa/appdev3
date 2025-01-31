@@ -15,6 +15,11 @@ class Counter extends StatelessWidget {
   }
 }
 
+// Stateful widget
+// 1. State -> capture the present data
+// 2. Method to listen to the user action -> Set State(){}
+// 3. Reaction is to call the present design and re-render/redraw
+
 class MyDesign extends StatefulWidget {
   const MyDesign({super.key});
 
